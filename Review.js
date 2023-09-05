@@ -38,7 +38,7 @@ let pagenumber=document.querySelector('.pagenumber');
 let pre= document.querySelector('.pre');
 let next=document.querySelector('.next');
 
-window.addEventListener("DOMContentLoaded", function ()
+window.addEventListener("DOMContentLoaded", function()
 {
     pp.src=reviews[ctype].pp;
     post.innerHTML=reviews[ctype].post;
@@ -64,9 +64,10 @@ next.addEventListener('click',function ()
     {
         ctype=0;
     }
+
     ctype++;
     showit(ctype);
-    
+
 })
 
 pre.addEventListener('click',function ()
