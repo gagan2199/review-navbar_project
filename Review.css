@@ -11,7 +11,8 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(32, 58, 32);
+    
+    background-color: rgb(101, 127, 175);
 }
 
 .container
@@ -24,7 +25,7 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(127, 153, 144);
+    background-color: rgb(50, 81, 117);
     align-self: center;
     position: relative;
     top: 100px;
@@ -72,7 +73,9 @@ body
 .revtext
 {
     margin-left: 5px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;    
     /* display: flex;
     justify-content: center;
     align-items: flex-start;
