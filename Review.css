@@ -11,8 +11,8 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    background-color: rgb(101, 127, 175);
+    background-color: rgb(50, 81, 117);
+  
 }
 
 .container
@@ -23,9 +23,10 @@ body
     width: 350px;
     height: 350px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(50, 81, 117);
+    background-color: rgb(101, 127, 175);
     align-self: center;
     position: relative;
     top: 100px;
@@ -49,9 +50,14 @@ body
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    display: flex;
-    justify-self: center;
+   
     /* margin-left: 100px; */
+}
+
+.img
+{
+    display: flex;
+    justify-content: center;
 }
 
 .namepost{
@@ -63,10 +69,12 @@ body
 
 .art1
 {
-    width: 30%;
-    /* display: flex;
-    flex-direction: column; */
-    margin-left: 100px;
+    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    /* margin-left: 100px; */
     
 }
 
@@ -74,6 +82,7 @@ body
 {
     margin-left: 5px;
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;    
     /* display: flex;
@@ -81,4 +90,21 @@ body
     align-items: flex-start;
      */
 }
+ 
+.prenext
+{
+    font-weight: bolder;
+   
+
+}
+
+.pre{
+  margin-right: 15px;
+  cursor: pointer;
+}
+.next{
+  margin-left: 15px;
+  cursor: pointer;
+}
+
 
