@@ -68,7 +68,7 @@ next.addEventListener('click',function ()
     ctype++;
     showit(ctype);
 
-})
+});
 
 pre.addEventListener('click',function ()
 {
@@ -77,8 +77,9 @@ pre.addEventListener('click',function ()
         ctype=reviews.length-1;
     }
     ctype--;
+
     showit(ctype);
-})
+});
 
 
 
