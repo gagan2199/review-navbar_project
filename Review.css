@@ -11,6 +11,7 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* height: 600px; */
     background-color: rgb(50, 81, 117);
   
 }
@@ -107,4 +108,44 @@ body
   cursor: pointer;
 }
 
+/* .container2
+{
+    display: flex;
+    color: white;
+    background-color: black;
+} */
 
+.navbar
+{
+    display: flex;
+    color: white;
+    background-color: black;
+    
+    
+    
+}
+
+.items
+{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+
+}
+
+.item 
+{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+
+.item a
+{
+    display: flex;
+    text-decoration: none;
+    color: white;
+
+}
