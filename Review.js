@@ -60,23 +60,24 @@ function showit(ctype)
 
 next.addEventListener('click',function ()
 {
+    ctype++;
+    console.log(ctype);
     if(ctype>reviews.length-1)
     {
         ctype=0;
     }
 
-    ctype++;
     showit(ctype);
 
 });
 
 pre.addEventListener('click',function ()
 {
+    ctype--;
     if(ctype<0)
     {
         ctype=reviews.length-1;
     }
-    ctype--;
 
     showit(ctype);
 });
