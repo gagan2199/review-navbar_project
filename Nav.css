@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Ubuntu:ital@0;1&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container2
+{
+    display: flex;
+    color: white;
+    background-color: black;
+}
+
+.navbar
+{
+    display: flex;
+    color: white;
+    background-color: black;
+    
+    
+    
+}
+
+.items
+{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+
+}
+
+.item 
+{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+
+.item a
+{
+    display: flex;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+.togglebutton{
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+
+}
+
+.togglebutton:hover{
+    cursor: pointer;
+}
+
+.after
+{
+    display: flex;
+    background-color: rgb(44, 44, 44);
+    width: 10%;
+   
+}
+
+.ulafter
+{
+  margin-left: 5px;
+  list-style: none;
+  
+}
+
+.liafter
+{
+    margin: 10px;
+    text-decoration: underline;
+    color: white;
+}
+.liafter a
+{
+    color: white;
+    text-decoration: none;
+}
